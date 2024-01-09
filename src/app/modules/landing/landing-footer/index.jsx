@@ -13,8 +13,10 @@ const LandingFooter = () => {
         <p>Improve your skills anytime,</p>
         <p>anywhere, Start your happy journey</p>
         <p>with our Quizzer</p>
-        <p className="mt-4">&#169; 2024 Copyright . Quizzer . All rights reserved</p>
+        <hr></hr>
+        <p className="mt-2">&#169; 2024 Copyright . Quizzer . All rights reserved</p>
       </div>
+      
       <div className="ml-auto">
         <p className="text-xl">Follow us</p>
         <div className="flex space-x-3 mt-2">
@@ -48,7 +50,7 @@ const LandingFooter = () => {
           />
         </div>
       </div>
-      <hr />
+     
     </div>
   );
 };
