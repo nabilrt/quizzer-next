@@ -11,7 +11,7 @@ const LandingHeader = () => {
           Login
         </Link>
         <Link
-          href={"/login"}
+          href={"/register"}
           className="p-3 bg-white bg-opacity-30 rounded-full tracking-wider hover:bg-opacity-15"
         >
           Registration
