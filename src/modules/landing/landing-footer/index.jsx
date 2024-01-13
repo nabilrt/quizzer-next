@@ -1,7 +1,7 @@
 import Image from "next/image";
 const LandingFooter = () => {
   return (
-    <div className="mt-5 bg-[#131220] flex px-16 py-12 ">
+    <div className="mt-5 bg-[#131220] flex px-16 py-12 text-white">
       <div className="flex flex-col text-sm">
         <Image
           src={"/quizzer.png"}
@@ -14,9 +14,11 @@ const LandingFooter = () => {
         <p>anywhere, Start your happy journey</p>
         <p>with our Quizzer</p>
         <hr></hr>
-        <p className="mt-2">&#169; 2024 Copyright . Quizzer . All rights reserved</p>
+        <p className="mt-2">
+          &#169; 2024 Copyright . Quizzer . All rights reserved
+        </p>
       </div>
-      
+
       <div className="ml-auto">
         <p className="text-xl">Follow us</p>
         <div className="flex space-x-3 mt-2">
@@ -50,7 +52,6 @@ const LandingFooter = () => {
           />
         </div>
       </div>
-     
     </div>
   );
 };

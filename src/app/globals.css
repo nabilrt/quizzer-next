@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-hr{
-    margin-top: 7px;
-    color: white;
-}
-
+@layer utilities {
+    td,
+    th {
+      @apply p-2;
+    }
+  }
